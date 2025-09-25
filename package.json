@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,10 +13,15 @@
   "description": "",
   "dependencies": {
     "archiver": "^7.0.1",
+    "axios": "^1.12.2",
+    "cheerio": "^1.1.2",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "multer": "^2.0.2",
+    "node-fetch": "^2.7.0",
     "path": "^0.12.7",
-    "sharp": "^0.34.3"
+    "play-dl": "^1.9.7",
+    "sharp": "^0.34.3",
+    "ytdl-core": "^4.11.5"
   }
 }
